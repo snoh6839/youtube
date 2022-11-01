@@ -7,6 +7,9 @@ moreBtn.addEventListener('click', () => {
   title.classList.toggle('clamp');
 })
 
+// upDown.addEventListener('click', () => {
+//   upDown.classList.toggle('active');
+// })
 
 upDown.on("click",function () {
   if (upDown.hasClass("active")) {
