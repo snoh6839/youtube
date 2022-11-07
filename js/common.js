@@ -10,9 +10,11 @@ moreBtn.addEventListener('click', () => {
 
 thumUp.addEventListener('click', () => {
   thumUp.classList.toggle('active');
+  thumDown.classList.remove('active');
 })
 thumDown.addEventListener('click', () => {
   thumDown.classList.toggle('active');
+  thumUp.classList.remove('active');
 })
 
 // upDown.on("click",function () {
