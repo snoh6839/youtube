@@ -30,7 +30,7 @@ button, button:focus {border: none; cursor: pointer; outline: none; background: 
 header {display: flex; justify-content: space-between;
 padding: var(--padding); background-color: var(--black-color);
 color: var(--white-color);}
-header .logo {font-size: var(--font-large);}
+header .logo {font-size: var(--font-large); cursor: pointer;}
 header .logo i {color: var(--red-color);}
 header .icons .fa-search {margin-right: var(--padding);}
 
